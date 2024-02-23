@@ -1,17 +1,26 @@
-# Mvc-Blog Projesi
+# Mvc-Blog Project
 
-.Net Mvc yapısı kullanılarak hazırlanmış bir blog sitesidir. 
+Mvc-Blog Project is a blog website developed using the .Net Mvc framework.
 
-Program kullanıcı tarafında, Kullanıcı girişi, üye olma, kategorilere göre makale listeleme, makalelere yorum yapabilme, yaptığın yorumu silebilme, üye profilini güncelleyebilme, çıkış yapabilme gibi yapılar içermektedir.
+## User-Side Features
+- User Login: Users can log in to the site.
+- User Registration: New users can register on the site.
+- Article Listing by Category: View articles filtered by categories.
+- Commenting: Users can leave comments on articles.
+- Comment Deletion: Users can delete their own comments.
+- Profile Update: Users can update their profile information.
+- Logout: Users can securely log out.
 
-Admin tarafında ise, admin panelini görüntüleme, makale ekleme-düzenleme-silme, yorum silme, kategori ekleme-düzenleme-silme, üye ekleme-düzenleme-silme gibi yapılar içermektedir.
+## Admin-Side Features
+- Admin Panel: Admins can manage the site through a dedicated panel.
+- Add-Edit-Delete Articles: Admins can add new articles, edit existing ones, or delete them.
+- Comment Deletion: Admins can delete comments made by users.
+- Add-Edit-Delete Categories: Admins can add new categories, edit existing ones, or delete them.
+- Add-Edit-Delete Users: Admins can add new users, edit their information, or delete their accounts.
 
-Kullanılan veritabanı diyagramı : 
-
-
-![database](https://github.com/merveyapnaz/Mvc-Blog/blob/69bafb9e69cb28abad6e35b7d5ee81b2133ba4df/Veritaban%C4%B1/databaseDiagram.PNG)
-
- 
-Bu blog sitesi [Mustafa SAĞLAM](https://github.com/mustafasaglam) 'ın video serisinden yardım alınarak hazırlanmıştır.
-
+## Running the Project
+1. Clone the repository to your computer.
+2. Open the project using Visual Studio or another .Net Mvc-supported IDE.
+3. Start the web server by running the project.
+4. Navigate to `localhost:port` in your browser to view the project.
 
